@@ -37,7 +37,7 @@ const MaxValueComponent = () => {
       {/* Muestra el valor máximo si está disponible */}
       {maxValue !== null && (
         <Typography variant="h2" marginTop={2}>
-          Valor máximo: {maxValue}
+          Valor mayor: {maxValue}
         </Typography>
       )}
 
